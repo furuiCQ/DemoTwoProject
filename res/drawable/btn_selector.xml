@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	
+  	<item android:drawable="@drawable/low_price" android:state_selected="true"/>
+  	<!-- 点下下去时候的背景 --> 
+    <item android:drawable="@drawable/banner_image" android:state_pressed="true"/>
+ 	<!-- 非按下去时候的背景-->
+    <item android:drawable="@drawable/hot_image" android:state_pressed="false"/>
+    
+</selector>
