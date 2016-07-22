@@ -5,7 +5,7 @@ package com.rainism.furui.myapplication.getureview;
  */
 
 public class GesturePointer {
-    public int tag;
+    int tag;
     int x;
     int y;
     boolean checked = false;
